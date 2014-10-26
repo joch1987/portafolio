@@ -2,6 +2,9 @@
 	margin:0px;
 	padding:0px;	
 	}
+img{
+	border:0px;
+	}
 
 body{
 	font-family:Verdana, Geneva, sans-serif;
@@ -91,8 +94,6 @@ nav ul li a:hover{
 	height:auto;
 	margin:0 auto;
 	position:relative;
-	
-
 	margin-top:20px;
 	
 	}
@@ -107,6 +108,7 @@ footer p{
 
 #cont-porta{
 	width:1000px;
+	min-height:350px;
 	height:auto;
 	margin:0 auto;
 	position:relative;
@@ -129,7 +131,7 @@ footer p{
 	margin:5px;
 	background:#CCC;
 	float:left;
-	border:#CCC 1.5px solid;
+	border:#CCC 1px solid;
 		
 	}
 #item-port a{
@@ -140,4 +142,36 @@ footer p{
 	border:#F00 1.5px solid;	
 	}
 
+		/*portafolio interior*/
+	
+#portaP{
+	width:800px;
+	height:auto;
+	min-height:350px;
+	margin:0 auto;
+	position:relative;
+	}
+
+#portaP img{
+		width:700px;
+		height:auto;
+		border:#CCC 5px solid;
+		margin:0 0 20px 45px;		
+	}
+	
+#portaP h2{
+	font-size:18px;	
+	}
+
+#portaP p{
+	
+	}
+
+
+
+		/*/portafolio interior*/
+
+
 /*/portafolio*/
+
+px;
