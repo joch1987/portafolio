@@ -12,6 +12,32 @@ body{
 	color:#666;	
 	}
 
+h1{
+	text-align:center;
+	font-size:24px;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:50px 0 0 0;
+	line-height:50px;
+	}
+
+h2{
+	text-align:center;
+	font-size:18px;
+	font-weight:normal;
+	margin:0;
+	line-height:30px;
+	}
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#666;	
+	
+	}
+
+.txt-centrado{
+	text-align:center;
+	}
 
 
 header{
@@ -37,6 +63,7 @@ nav{
 
 nav ul{
 	list-style-type:none;
+
 	
 	
 	}
@@ -44,27 +71,38 @@ nav ul{
 nav ul li{
 	font-size:16px;
 	float:left;
-	padding:10px 35px;
+
+	
 	
 	}
 
 nav ul li a{
 	text-decoration:none;
 	color:#999;
-	
+	display:block;
+	padding:10px 35px;
 	}
 
 nav ul li a:hover{
 	color:#333;
+	background:#CCC;
 	
 	}
 
 #logo{
-	width:175px;
+	margin:0 5px;
+
+	}
+#logo a{
+		width:175px;
 	height:100px;
 	background:#fff;
-	padding:0;
+	padding:0 !important;
+	margin:0 !important;
 	z-index:2;
+	}
+
+#logo a:hover{
 	
 
 	}
@@ -115,13 +153,35 @@ footer p{
 	margin-top:70px;
 
 	}
+
+#cont-porta #back{
+	width:100%;
+	height:35px;
+	margin:0 0 0 30px;
+	}
+
+#cont-porta #back p{
 	
+	}
+
+#cont-porta #back a{
+	text-decoration:none;
+	color:#999;
+	
+	
+	}
+#cont-porta #back a:hover{
+	color:#333;
+
+	}
+		
 #cont-porta h1{
 	text-align:center;
 	font-size:24px;
 	font-weight:normal;
 	text-transform:uppercase;
 	margin-bottom:50px;
+	margin-top:0;
 	
 	}
 
@@ -152,20 +212,8 @@ footer p{
 	position:relative;
 	}
 
-#portaP img{
-		width:700px;
-		height:auto;
-		border:#CCC 5px solid;
-		margin:0 0 20px 45px;		
-	}
-	
-#portaP h2{
-	font-size:18px;	
-	}
 
-#portaP p{
-	
-	}
+
 
 
 
@@ -174,4 +222,172 @@ footer p{
 
 /*/portafolio*/
 
-px;
+/* Interiores */
+
+#contenedor{
+	width:950px;
+	min-height:500px;
+	height:auto;
+	margin:20px auto;
+	border-bottom:#dadada 2px dotted;
+	}
+
+	/* servicios */
+
+.ser{
+	width:280px;
+	margin:20px;
+	padding:2px;
+	border:1px solid #bababa;
+	float:left;
+	height:350px;
+	list-style-type:none;
+	position:relative;
+	}
+
+.ser ul{
+	}
+
+.ser ul li{
+	background:#CCC;
+	display:block;
+	cursor:pointer;	
+	}
+
+.ser:first-child{
+	margin:20px 20px 20px 0;
+	
+	}
+.ser:last-child{
+	margin:20px 0 20px 20px;
+	}
+
+.ser .botton{
+	height:35px;
+	width:280px;
+	background:rgba(139, 139, 139, 0.75);
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	line-height:36px;
+	color:#FAFAFA;
+	
+	}
+
+
+
+
+
+.ser .botton p{
+	font-size:16px;
+	text-transform:uppercase;
+	text-align:center;
+	padding:15px;
+	line-height:8px;
+	color:#FFF;
+	}
+
+.ser .botton a{
+	font-size:16px;
+	text-transform:uppercase;
+
+	color:#fafafa;
+	text-decoration:none;
+	}
+
+.ser .botton a:hover{
+	color:#FFF;
+	}
+	
+	
+	/* /servicios */
+
+
+
+	/* contacto */
+#cont-contacto{
+	width:400px;
+	height:auto;
+	margin:0 auto;
+	}
+
+form {
+	margin-bottom: 2.5em;
+	margin:25px 0;
+	}
+label, legend {
+	display: block;
+	padding:10px 0;
+	}
+	
+label.checkbox {
+	margin-bottom: 0.75em;
+	}
+
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=date], textarea, select, .customSelect { 						 	border: 1px solid #bbb;
+	outline: none;
+	color: #222;
+	width:100%;
+	display: block;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.7); 		 	margin-bottom:10px;
+	padding: 0.7em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+input[type=text].full-width, input[type=password].full-width, input[type=email].full-width, textarea.full-width, select.full-width, .customSelect.full-width { width: 100%; }
+.ie7 input[type=text].full-width, .ie7 input[type=password].full-width, .ie7 input[type=email].full-width, .ie7 textarea.full-width, .ie7 select.full-width { width: 85%; }
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus, .customSelectFocus { border-color: #888; }
+input[type=text]:focus:invalid, input[type=password]:focus:invalid, input[type=email]:focus:invalid, textarea:focus:invalid { border-color: #d55; }
+textarea { width: 30px; min-height: 7em; overflow: auto; }
+input[type=checkbox], input[type=radio] { display: inline; vertical-align: bottom; position: relative; top: -0.1em; *overflow: hidden; }
+select { line-height: 2.6em; }
+select.hasCustomSelect { z-index: 2; }
+.customSelect { position: relative; display: inline-block; height: 2.97em; }
+.customSelect:after { font-family: 'PerSempre Icons'; line-height: 1; font-style: normal; font-weight: normal; speak: none; content: "\2193"; color: #888; position: absolute; top: 0.9em; right: 0.7em; -webkit-font-smoothing: antialiased; }
+
+textarea {
+	width:100%;
+	}
+	
+/* buttons */
+.button, button, input[type=submit], input[type=reset], input[type=button], .pagination .page-numbers {
+	display: inline-block;
+	padding: 1em 1.5em;
+	line-height: 1em;
+	margin-bottom: 50px;
+	margin-top:50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width:100%;
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+	background-color: #009539;/*color verde incial*/
+	border: 0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+
+.button:visited, .button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, .pagination .page-numbers:hover {
+	color: #fff;
+	text-decoration: none;
+	}
+.button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, .button:focus, button:focus, input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus, .pagination .page-numbers:hover, .pagination .page-numbers:focus {
+	background-color: #2b6f19;/*color verde hover*/
+	color: #fff;
+	}
+.button:active, button:active, input[type=submit]:active, input[type=reset]:active, input[type=button]:active, .button.hover, .pagination .page-numbers:active { background-color: #333; /* color activado*/ 
+}
+<!--contacto-->
+
+
+	/* contacto */
+	
+
+
+
+
+/* /Interiores */
